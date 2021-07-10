@@ -14,23 +14,22 @@ class Fireball
 		int mPosX, mPosY;
 		int mVelX;
 		int flag_of_fireball;
-		//Maximum axis velocity of the Naruto
+		
 		static const int Fireball_VEL = 12;
 
 		//Initializes the variables
 		Fireball();
 
-		//Takes key presses and adjusts the Naruto's velocity
-		//Moves the Naruto
+		
+		
 		void move();
 		void close();
-		//Shows the Naruto on the screen
+	
 		void render();
 		SDL_Rect Fireball_rect;
 
     private:
-		//The X and Y offsets of the Naruto
-		//The velocity of the Naruto
+
 		int f;
 };
 
